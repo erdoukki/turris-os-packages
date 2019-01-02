@@ -23,7 +23,7 @@ define Package/haas-proxy
   CATEGORY:=Network
   TITLE:=haas-proxy
   URL:=https://haas.nic.cz
-  DEPENDS:=+python3-base +python3-cachetools +python3-requests +python-twisted +python3-cryptography +python-service-identity +server-uplink +sshpass
+  DEPENDS:=+python3-base +python3-cachetools +python3-requests +python3-twisted +python3-cryptography +python-service-identity +server-uplink +sshpass
   CONFLICTS:=mitmproxy
 endef
 
